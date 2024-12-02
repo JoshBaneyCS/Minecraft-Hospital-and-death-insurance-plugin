@@ -1,0 +1,3 @@
+insurance-co-pay: 50.0  # Co-pay when a player with insurance dies
+payment-per-xp-level: 10.0  # Payment per XP level when uninsured
+main-hospital-flat-fee: 20.0  # Flat fee when respawning at the main hospital
