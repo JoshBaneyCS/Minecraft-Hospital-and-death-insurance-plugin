@@ -1,0 +1,1 @@
+hospital-radius: 500  # Distance in blocks to search for the closest hospital.
