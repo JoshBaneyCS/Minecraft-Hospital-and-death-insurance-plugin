@@ -1,0 +1,12 @@
+name: DeathInsurance
+version: 1.0
+main: com.example.deathinsurance.DeathInsurancePlugin
+commands:
+  insurance:
+    description: Manage health insurance.
+    usage: /insurance buy
+    permission: insurance.use
+permissions:
+  insurance.use:
+    description: Allows a player to buy insurance.
+    default: true
