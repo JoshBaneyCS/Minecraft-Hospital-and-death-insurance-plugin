@@ -1,0 +1,21 @@
+name: HospitalPlugin
+version: 1.0
+main: com.baneymc.hospital.HospitalPlugin
+commands:
+  hospital:
+    description: Manage hospitals.
+    usage: /hospital <set|remove|removemain> [main|hospital]
+    permission: hospital.use
+permissions:
+  hospital.setmain:
+    description: Allows setting the main hospital.
+    default: op
+  hospital.sethospital:
+    description: Allows setting a hospital.
+    default: op
+  hospital.removehospital:
+    description: Allows removing the closest hospital.
+    default: op
+  hospital.removemain:
+    description: Allows removing the main hospital.
+    default: op
