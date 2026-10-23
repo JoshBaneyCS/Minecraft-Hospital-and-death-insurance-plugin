@@ -1,0 +1,18 @@
+# Price of /insurance buy, and how many hours one purchase covers. Buying again while covered adds time.
+insurance-price: 500.0
+insurance-duration-hours: 168
+
+# Insured players who wake up in a nearby hospital pay this co-pay and keep their inventory.
+insurance-co-pay: 50.0
+
+# Uninsured players who wake up in a nearby hospital are billed this much per XP level to get their belongings back.
+payment-per-xp-level: 10.0
+
+# Players taken to the main hospital (no hospital nearby) pay this flat fee and keep their inventory.
+main-hospital-flat-fee: 20.0
+
+# Seconds an uninsured player has (counted only while online) to /insurance pay before held belongings are lost.
+claim-timeout-seconds: 300
+
+# When an uninsured player can't afford the bill: true = belongings are destroyed, false = they drop where the player died.
+destroy-unpaid-items: true

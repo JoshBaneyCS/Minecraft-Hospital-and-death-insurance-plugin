@@ -1,0 +1,6 @@
+# Distance in blocks to search for the closest hospital. Players who die farther than this
+# from every hospital wake up in the main hospital instead.
+hospital-radius: 500
+
+# When true, a player with a bed or respawn anchor wakes up there instead of at a hospital.
+respect-bed-spawns: false
