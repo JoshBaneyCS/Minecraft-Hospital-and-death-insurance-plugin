@@ -1,0 +1,31 @@
+name: HospitalPlugin
+version: '${version}'
+main: com.radiimc.hospital.HospitalPlugin
+api-version: '1.21'
+description: Players who die wake up in the nearest hospital.
+authors: [RadiiMC]
+softdepend: [Multiverse-Core]
+commands:
+  hospital:
+    description: Manage hospitals.
+    usage: /hospital <set main|set hospital [name]|remove [name]|removemain|list>
+    permission: hospital.use
+permissions:
+  hospital.use:
+    description: Allows using /hospital.
+    default: op
+  hospital.setmain:
+    description: Allows setting the main hospital.
+    default: op
+  hospital.sethospital:
+    description: Allows setting a hospital.
+    default: op
+  hospital.removehospital:
+    description: Allows removing hospitals.
+    default: op
+  hospital.removemain:
+    description: Allows removing the main hospital.
+    default: op
+  hospital.list:
+    description: Allows listing hospitals.
+    default: op

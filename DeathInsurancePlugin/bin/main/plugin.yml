@@ -1,0 +1,20 @@
+name: DeathInsurance
+version: '${version}'
+main: com.radiimc.deathinsurance.DeathInsurancePlugin
+api-version: '1.21'
+description: Health insurance and hospital bills for player deaths.
+authors: [RadiiMC]
+depend: [Vault, HospitalPlugin]
+softdepend: [Essentials]
+commands:
+  insurance:
+    description: Buy health insurance, check your policy, or settle a hospital bill.
+    usage: /insurance [buy|status|pay|abandon]
+    permission: insurance.use
+permissions:
+  insurance.use:
+    description: Allows a player to buy insurance and settle hospital bills.
+    default: true
+  insurance.admin:
+    description: Allows /insurance reload.
+    default: op
